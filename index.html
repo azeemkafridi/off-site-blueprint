@@ -1,0 +1,777 @@
+<html>
+<head>
+    <title>Off-Site BluePrint</title>
+    <link rel="icon" type="image/*" href="link%20(1).png"/>
+    <meta name="description" content="Your blueprint to SEO Off-Site perfectly!"/>
+    <meta name="author" content="Azeem"/>
+    <meta name="keywords" content="off site seo, off site seo blueprint, how to do off site seo"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            background-color: #89C6D0;
+            width: 100%;
+            height: 100%;
+            font-family: monospace;
+            font-size: 18px;
+        }
+
+        header{
+            position: fixed;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            background-color: #B5DBE1;
+            border-bottom: 2px solid #89C6D0;
+        }
+        
+        .logo{
+            float: left;
+            display: block;
+            margin-left: 16px;
+            width: 64px;
+            margin-top: 6px;
+            height: auto;
+        }
+        
+        .logo img{
+            width: 64px;
+            height: auto;
+        }
+        
+        .download-header a{
+            display: block;
+            float: right;
+            border: 1px solid black;
+            font-size: 18px;
+            padding: 8px 8px 8px 8px;
+            margin: 20px 12px 0 0;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .info h1{
+            font-size: 48px;
+            margin: 16px 0 16px 0;
+        }
+        
+        .info p{
+            width: 60%;
+            font-size: 16px;
+        }
+        
+        .info{
+            margin-top: 8%;
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        
+        .overview{
+            width: 100%;
+            height: 63%;
+            background-color: #B5DBE1;
+            margin-top:16px;
+        }
+        
+        .overview table tr td{
+            font-size: 18px;
+            padding-top: 4px;
+            border-bottom: 1px solid white;
+        }
+        
+        .overview table{
+            margin-top: 20px;
+        }
+        
+        .image{
+            width: 40%;
+            float: right;
+            background-color: rgb(100, 145, 152);
+            height: 100%;
+        }
+        
+        .image a{
+            text-decoration: none;
+            color:black;
+        }
+        
+        .image h2{
+            color: #B5DBE1;
+            margin-top: 220px;
+            text-align: center;
+        }
+        
+        .image p{
+            margin-top: 8px;
+            background-color: #B5DBE1;
+            display: block;
+            line-height: inherit;
+            border: 1px black solid;
+            text-align: center;
+            border-radius: 6px;
+            width: 60%;
+            color: black;
+            font-size: 16px;
+            transition: background-color .35s ease-in;
+        }
+        .image p:hover{
+            background-color: white;
+        }
+        
+        .text{
+            width: 50%;
+            line-height: 18px;
+            height: auto;
+            float: left;
+            margin:24px 0 0 24px;
+        }
+        
+        .text p{
+            line-height: 18px;
+            margin-top: 24px;
+        }
+        
+        .navigator{
+            margin-top:28px;            
+            margin-bottom:24px;
+            width: 80%;
+            height: auto;
+            background-color: #89C6D0;
+        }
+        
+        .navigator ul{
+            list-style: none;
+        }
+        
+        .navigator ul a li{
+            display: inline;
+            line-height: 46px;
+            padding: 8px 8px 8px 8px;
+            border: 1px solid black;
+            color: black;
+        }
+        
+        .navigator ul a{
+            text-decoration: none;
+        }
+        
+        .reciprocal{
+            width: 100%;
+            height: 63%;
+            background-color:#B5DBE1;
+        }
+        
+        .forum, .comment, .bio, .guest-post, .press-release, .authority, .homepage, .directory, .edu-gov, .news-magazines{
+            width: 100%;
+            height: 63%;
+            background-color:#B5DBE1;
+            margin-top: 10px;
+        }
+        
+        .schedule{
+            width: 100%;
+            height: 50%;
+        }
+        
+        .schedule img{
+            z-index: -5;
+            position: absolute;
+            width: 100%;
+        }
+        
+        .schedule-inner{
+            width: 60%;
+            line-height: 28px;
+            font-size: 24px;
+        }
+        
+        .schedule-inner p{
+            color: white;
+            text-shadow: 2px 2px 0px black;
+            padding-top: 86px;
+        }
+        
+        .schedule-inner form{
+            margin-top: 20px;
+        }
+        form input:first-of-type{
+            width: 20p%;
+            height: 6%;
+        }
+        form input:last-of-type{
+            height: 6%;
+            width: 23%;
+        }
+        
+        footer{
+            width: 100%;
+            height: 10%;
+            background-color: #B5DBE1;
+        }
+        
+        footer p:first-of-type{
+            margin-top: 34px;
+            float: left;
+            margin-left: 20px;
+        }
+        
+        footer p:last-of-type{
+            margin-top: 34px;
+            float: right;
+            margin-right: 20px;
+        }
+        
+        .fixed-top{
+            float: right;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(100, 145, 152);
+            color: white;
+            margin-top: -50px;
+            margin-right: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        @media (min-width:767px) and (max-width:1023px){
+            .info{
+                margin-top: 10%;
+            }
+            
+            .text p{
+                font-size: 12px;
+                margin-bottom: -12px;
+            }
+        
+        .image h2{
+            color: #B5DBE1;
+            margin-top: 178px;
+            text-align: center;
+        }
+            
+            .schedule-inner p{
+            color: white;
+            text-shadow: 2px 2px 0px black;
+            padding-top: 42px;
+            }
+        
+            .schedule-inner form{
+            margin-top: 20px;
+            }
+            
+            .schedule{
+            width: 100%;
+            height: 40%;
+        }
+        }
+        
+        @media (min-width:1024px) and (max-width:1279px){
+            .image h2{
+                color: #B5DBE1;
+                margin-top: 192px;
+                text-align: center;
+            }
+            
+            .download-header a{
+                margin: 16px 12px 0 0;
+            }
+            
+            .schedule-inner p{
+                padding-top: 62px;
+            }
+            
+            footer p:first-of-type{
+                margin-top: 28px;
+                float: left;
+                margin-left: 20px;
+            }
+        
+            footer p:last-of-type{
+                margin-top: 28px;
+                float: right;
+                margin-right: 20px;
+            }
+            
+            form input:last-of-type{
+                width: 29%;
+            }
+        }
+        
+        @media (min-width:639px) and (max-width:767px){
+            .info{
+                margin-top: 13%;
+            }
+            
+            .text p{
+                font-size: 12px;
+                margin-bottom: -12px;
+            }
+            
+            .image h2{
+                font-size: 14px;
+                color: #B5DBE1;
+                margin-top: 170px;
+                text-align: center;
+            }
+            
+            .schedule-inner p{
+            color: white;
+            text-shadow: 2px 2px 0px black;
+            padding-top: 10px;
+            }
+        
+            .schedule-inner form{
+            margin-top: 10px;
+            }
+            
+            .schedule{
+            width: 100%;
+            height: 30%;
+            }
+            
+            .reciprocal, .forum, .comment, .bio, .guest-post, .press-release, .authority, .homepage, .directory, .edu-gov, .news-magazines{
+                width: 100%;
+                height: 60%;
+            }
+        }
+        
+        @media (min-width:439px) and (max-width:639px){
+            .info{
+                margin-top: 18%;
+            }
+            
+            .text p{
+                font-size: 12px;
+                margin-bottom: -12px;
+            }
+            
+            .image h2{
+                font-size: 16px;
+                color: #B5DBE1;
+                margin-top: 220px;
+                text-align: center;
+            }
+            
+            .schedule-inner p{
+            font-size: 12px;
+            color: white;
+            text-shadow: 2px 2px 0px black;
+            padding-top: 0px;
+            }
+            
+            .schedule-inner p:last-of-type{
+                margin-top: -10px;
+            }
+        
+            .schedule-inner form{
+            margin-top: 10px;
+            }
+            
+            .schedule{
+            width: 100%;
+            height: 20%;
+            }
+            
+            .reciprocal, .forum, .comment, .bio, .guest-post, .press-release, .authority, .homepage, .directory, .edu-gov, .news-magazines{
+                width: 100%;
+                height: 72%;
+            }
+        }
+        
+        @media (min-width:319px) and (max-width:439px){
+            .info{
+                margin-top: 20%;
+            }
+            
+            .logo{
+                margin-top: 4px;
+                float: left;
+                display: block;
+                margin-left: 16px;
+                width: 32px;
+                height: auto;
+            }
+
+            .logo img{
+                width: 32px;
+                height: auto;
+            }
+
+            .download-header a{
+                display: block;
+                float: right;
+                border: 1px solid black;
+                font-size: 12px;
+                padding: 8px 8px 8px 8px;
+                margin:6px 12px 0 0;
+                text-decoration: none;
+                color: black;
+            }
+            
+            .text p{
+                font-size: 12px;
+                margin-bottom: -12px;
+            }
+            
+            .text{
+                margin:24px 0 0 12px;
+            }
+            
+            .image h2{
+                font-size: 16px;
+                color: #B5DBE1;
+                margin-top: 24px;
+                text-align: center;
+            }
+            
+            .schedule-inner{
+                padding-top: 8px;
+                width: 80%;
+            }
+            
+            .schedule-inner p{
+                
+                line-height: 14px;
+                font-size: 12px;
+                color: white;
+                text-shadow: 2px 2px 0px black;
+                padding-top: 0px;
+                }
+        
+            .schedule-inner form{
+                margin-top: 10px;
+            }
+            
+            .schedule img{
+                height: 26%;
+            }
+            .schedule{
+                width: 100%;
+                height: 26%;
+            }
+            
+            .reciprocal, .forum, .comment, .bio, .guest-post, .press-release, .authority, .homepage, .directory, .edu-gov, .news-magazines, .overview{
+                width: 100%;
+                height: 158%;
+            }
+            
+            footer p:first-of-type{
+                margin-top: 14px;
+        }
+        
+            footer p:last-of-type{
+                margin-top: 14px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" id="logo">
+            <a href="index.html"><img src="link%20(1).png"></a>
+        </div>
+        <div class="download-header">
+            <a href=""><p>Download .PDF</p></a>
+        </div>
+    </header>
+    
+    <section>
+        
+<!-- Information-->   
+        
+        <center><div class="info" id="info">
+            <h1>Off-Site BluePrint</h1>
+            <p>Off Site (Off Page) SEO is all about linkings and anchors but without the idea of what links matter and when do you target what links, you are shooting in the dark!</p>
+            <p>Follow this blueprint and you'll most likely be aided than others.</p>
+        </div></center> 
+ 
+<!-- Overview-->            
+        
+        <div class="overview">
+            <div class="text">
+            <h2>Overview:</h2>
+            <p>Before we start explaining the types of Linking, let us first list their terms:</p>
+            <table>
+            <tr>
+                <td>.Edu & .Gov Links</td>
+            </tr>
+            <tr>
+                <td>Directory Links</td>
+            </tr>
+            <tr>
+                <td>Authority Links</td>
+            </tr>
+            <tr>
+                <td>Home Page Links</td>
+            </tr>
+            <tr>
+                <td>Newspaper & Magazine Links</td>
+            </tr>
+            <tr>
+                <td>Guest Posts</td>
+            </tr>
+            <tr>
+                <td>Bio Links</td>
+            </tr>
+            <tr>
+                <td>Comment Links</td>
+            </tr>
+            <tr>
+                <td>Forum Links</td>
+            </tr>
+            <tr>
+                <td>Press Release Links</td>
+            </tr>
+            <tr>
+                <td>Reciprocal Links</td>
+            </tr>
+            </table>
+            </div>
+            
+            <div class="image">
+                <h2>Types of Links</h2>
+                <center><p>	&#128279;</p></center>
+            </div>
+        </div>
+        
+<!-- Navigator-->               
+        
+        <center><div class="navigator">
+            <ul>
+                <a href="#reciprocal"><li>Reciprocal Links</li></a>
+                <a href="#press-release"><li>Press Release Links</li></a>
+                <a href="#forum"><li>Forum Links</li></a>
+                <a href="#comment"><li>Comment Links</li></a>
+                <a href="#bio"><li>Bio Links</li></a>
+                <a href="#guest-post"><li>Guest Posts</li></a>
+                <a href="#news-magazines"><li>Newspaper & Magazine Links</li></a>
+                <a href="#homepage"><li>Home Page Links</li></a>
+                <a href="#authority"><li>Authority Links</li></a>
+                <a href="#direcotory"><li>Directory Links</li></a>
+                <a href="#edu-gov"><li>.Edu & .Gov Links</li></a>
+            </ul>
+        </div></center>
+        
+<!-- Reciprocal-->
+        
+        <div class="reciprocal" id="reciprocal">
+            <div class="text">
+                <h2>Reciprocal Links</h2>
+                <p>Reciprocal links are links between two sites that have been created and linked to each other for a number of possible reasons. The site owners may do this to give visitors a chance to see both sites, as they may be related, or as a show of partnership. If you’re familiar with some of the mythology and folklore surrounding search engine optimization, you may have read or heard that reciprocal links are bad, and that search engines don’t like them. <br><br>Credits: <a href="http://www.seobythesea.com/2009/01/what-are-reciprocal-links-and-what-do-search-engines-think-of-them/">seobythesea</a></p>
+            </div>
+            
+            <div class="image">
+                <h2>Reciprocal Links</h2>
+                <center><p>web1 ⇄ web2</p></center>
+            </div>
+        </div>
+        
+<!-- Forum Links-->
+        
+        <div class="forum" id="forum">
+            <div class="text">
+                <h2>Forum Links</h2>
+                <p>Forum Links are links that you or any person mention in any type of forum that exists online.</p>
+                <p>There are 1000s of forums that are live in almost every niche and what you have to do is to only target the forums that come in your website's interest or area.<br><br>Top 3 forums worldwide are:<br>1. <a href="http://www.warriorforum.com/">WarriorForum</a><br>2. <a href="http://digitalpoint.com/">DigitalPoint</a><br>3. <a href="http://www.nairaland.com/">NairaLand</a></p>
+            </div>
+            
+            <div class="image">
+                <h2>List of 700+ Forum Links</h2>
+                <a href="https://drive.google.com/open?id=0B5C2Jyh7o581SG10UU12WTltYk0"><center><p>Download</p></center></a>
+            </div>
+        </div>
+        
+<!-- Comment Links-->        
+        
+        <div class="comment" id="comment">
+            <div class="text">
+                <h2>Comment Links</h2>
+                <p>Almost everybody knows what 'Comment Links' are and if you don't, these links are links that you get from commenting on people's websites' articles or content. <br><br>All you have to do is to read their website's article or content, come up with the idea of how it good it was and how it could be more beneficial in any way, and leave a link to your website that relates to whatever you just read. Simple as that.</p>
+                <p>Again, what to keep in mind, is to only comment on blog posts that are in your niche and website's category.</p>
+            </div>
+            
+            <div class="image" id=bio>
+                <h2>List of 100+ Commenting Sites</h2>
+                <a href="https://drive.google.com/open?id=0B5C2Jyh7o581VF9nTm1IN1JlT1k"><center><p>Download</p></center></a>
+            </div>
+        </div>
+        
+<!-- Bio Links-->         
+        
+        <div class="bio" id="bio">
+            <div class="text">
+                <h2>Bio Links</h2>
+                <p>For 'Bio Links', you need to write for websites first.</p>
+                <p>Here's how it works:</p>
+                <p><b>1.</b> You sign up for a website or contact them that you want to write for them.<br><b>2.</b> When you're approved, you set up your profile there and add a link to your  'Bio' section of your profile.<br><b>3.</b> When you publish a post/ article, your link that was in 'Bio' section automatically gets posted at the bottom of the article that you published. And, if not, there will be a 'Bio' section or Author's description area when you are about to publish your content where you can add your link.</p>
+                <p><b>Some websites don't let you post but you can setup a profile there and still get a backlink from the url of the profile.</b></p>
+            </div>
+            
+            <div class="image">
+               <h2>List of 150+ Bio Sites</h2>
+                <a href="https://drive.google.com/open?id=0B5C2Jyh7o581cUc5WEIxa05FU28"><center><p>Download</p></center></a>
+            </div>
+        </div>
+        
+<!-- Guest Posts-->  
+        
+        <div class="guest-post" id="guest-post">
+            <div class="text" id="text">
+                <h2>Guest Posts Links</h2>
+                <p>Guest Posts work as same as Bio Links but instead of setting up your profile on people's websites and adding your link in there, you publish your article straight-forward and put your website's links related to the content in anchors (internally linking).</p>
+                <p>Here's what to keep in mind:</p>
+                <p><b>1.</b> Not all website owners allow people to use links in their content.<br><b>2.</b> You should only post to websites that are in your niche and or category.</p>
+            </div>
+            
+            <div class="image">
+                <h2>List of 180+ Guest Posting Sites</h2>
+                <a href="https://drive.google.com/open?id=0B5C2Jyh7o581WmJPanN3QVhndGs"><center><p>Download</p></center></a>
+            </div>
+        </div>
+        
+<!-- Press Release-->          
+        
+        <div class="press-release" id="press-release">
+            <div class="text">
+                <h2>Press Release Links</h2>
+                <p>Press Release is when you send an information that is newsworthy for the large audiences to newspapers to be published and when you link your information to other resources and related content, that's when it becomes Press Release Link.</p>
+                <p>What to keep in mind in here is you should make your content more like a news by adding headlines & subheadlines and also make sure it's important to both the audience and the news provider/ publisher that will be publishing your information/ content.</p>
+                <p>What we found is that most PR websites don't allow links from anchors but plain links. For example: http://www.noanchorallowed.com and not like <a href="#">noanchorallowed</a>.</p>
+            </div>
+            
+            <div class="image">
+                <h2>List of 100+ Press Release Sites</h2>
+                <a href="https://drive.google.com/open?id=0B5C2Jyh7o581OE8tQzcycDE2VWM"><center><p>Download</p></center></a>
+            </div>
+        </div>
+        
+<!-- Authority Links-->  
+        
+        <div class="authority" id="authority">
+            <div class="text">
+                <h2>Authority Links</h2>
+                <p>Authority Links are links from website that are high in authority, simple as that.</p>
+                <p>The more the authority, the better the rankings.</p>
+                <p>To measure authority, you can use <a href-"https://moz.com/researchtools/ose/">Open Site Explorer by Moz</a> that tells you everything from page's authorty to spam score of that domain.</p>
+                <p><b>Quick Tip: </b>Gather the list of domains/ websites under your niche in Google Directory, measure their authority, and look out for linking opportunites in the ones that you found yourself to be interested in.</p>
+            </div>
+            
+            <div class="image">
+                <h2>Search Authority Links</h2>
+                <a href="http://www.alexa.com/topsites"><center><p>Search</p></center></a>
+            </div>
+        </div>
+        
+<!-- Home Page Links--> 
+        
+        <div class="homepage" id="homepage">
+            <div class="text">
+                <h2>Home Page Links</h2>
+                <p>Home Page Links are links that you get from people's websites' home pages/ main pages.</p>
+                <p>Now, these links are hard to gain organically but can be bought - unless you have another website that relates to the website you want to link to, so you put a link in your home page.</p>
+                <p>This idea generates links to the total of pages that exist in your website and so is considered spammy. To avoid spam, you can write an article that will have the links that you want to link to, and then put a link of that article in your home page to gain maximum link juice.</p>
+            </div>
+            
+            <div class="image">
+                <h2>Home Page Links</h2>
+                <center><p>	&#127968;</p></center>
+            </div>
+        </div>
+        
+<!-- Directory Links-->
+        
+        <div class="directory" id="directory">
+            <div class="text">
+                <h2>Directory Links</h2>
+                <p>If you put your website in a directory (or directories) that exists online, the links that you gain are called 'Directory Links'.</p>
+                <p>Most people believe that these type of links are not aiding anyhow but that's wrong; they still work.</p>
+                <p>They help your website to be found for a specific category as well.</p>
+                <p>For best results, try putting your website in the directory that relates to your website - instead of spamming your website with 'Directory Links'.</p>
+            </div>
+            <div class="image">
+                <h2>List of 250+ Directory Sites</h2>
+                <a href="https://drive.google.com/open?id=0B5C2Jyh7o581VDlybFRDQzJsR0k"><center><p>Download</p></center></a>
+            </div>
+        </div>
+        
+<!-- .EDU & .GOV Links-->        
+        
+        <div class="edu-gov" id="edu-gov">
+            <div class="text">
+                <h2>.EDU & GOV Links</h2>
+                <p>Links from the domains/ websites that have their extension either in .edu or .gov are considered as '.EDU & .GOV Links'.<br><br>For example: www.mysite.gov - www.mysite.edu</p>
+                <p>These links tend to build websites' authority to the fullest and are found hard to be gained.</p>
+                <p>Again, target the websites that come under your niche and or category to see better rankings.</p>
+            </div>
+            
+            <div class="image">
+                <h2>List of 100+ .EDU & .Gov Sites</h2>
+                <a href="https://drive.google.com/open?id=0B5C2Jyh7o581YjA0MTlFTUswcWs"><center><p>Download</p></center></a>
+            </div>
+        </div>
+        
+<!-- News & Magazines-->  
+        
+        <div class="news-magazines" id="news-magazines">
+            <div class="text">
+                <h2>News & Magazines Links</h2>
+                <p>The name says it all, links gained from either magazines or news come under this type of links.</p>
+                <p><b>- </b>To get links from news, make sure your content is appealing and has everything a news type content needs.<br><b>- </b>To get links from magazines, target magazines that are in your category and interest to get maximum chanced of getting featured.</p>
+                <p>Due to the type of these links, they help you gain traffic as well while helping you rank at the same time.</p>
+            </div>
+            
+            <div class="image">
+                <h2>These sites differ in every country so head over to the ones that are famous in your country/ location.</h2>
+            </div>
+        </div>
+        
+<!-- Opt-in -->
+        
+        <div class="schedule" id="schedule">
+            <img src="schedule.jpeg"/>
+            <center><div class="schedule-inner">
+                <p>Now that you know all of the types of links that exist, you might want to know when to make what links.</p>
+                <p>Get your linking schedule now!</p>
+                <form><input id="email" type="email" name="email" value="Enter your email" required /><br><input type="button" name="submit" value="Submit" onclick="getemail();"></form>
+            </div></center>
+                 
+        </div>
+        
+    </section>
+    
+    <footer>
+        <p>All rights reserved.</p>
+        <a href="#info"><div class="fixed-top">
+        &uarr;
+            </div></a>
+        <p>Made by <a href="http://www.azeemkafridi.blogspot.com">Azeem</a></p>        
+    </footer>
+
+<!--Script-->    
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_urrAd0e1OGUBjWMui2307");
+   })();
+    function getemail(){
+        var x = document.getElementById("email").value;
+        var split = x.split("@");
+        if(x=="" || x=="Enter your email"){
+            window.alert("Please enter your email!")
+        }else if(split[1]!=null){
+            window.alert("You'll soon get your schedule via Email Address that you entered!");
+            emailjs.send("yahoo", "yahoo", {"from_name":x,"reply_to":"azeem_afridi@yahoo.com","message_html":"Off-Site-BluePrint Email Optin"});
+            document.getElementById("email").setAttribute("value","");
+        }else{
+            window.alert("Wrong email address!");
+        }
+    }
+</script>
+</body>
+</html>
